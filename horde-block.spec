@@ -18,11 +18,12 @@ Requires:	horde-util
 Requires:	php-gettext
 BuildRequires:	php-pear
 BuildRequires:	php-pear-channel-horde
-BuildRoot:	%{_tmppath}/%{name}-%{version}
+
 
 %description
-The Horde_UI:: class provides an API for getting information about
-the current user's userinterface and its capabilities.
+The Horde_Block API provides a mechanism for displaying content
+blocks from numerous Horde applications or other sources,
+manipulating those blocks, configuring them, etc
 
 %prep
 %setup -q -n %{prj}-%{version}
