@@ -61,3 +61,20 @@ fi
 %{peardir}/Horde/Block/Collection.php
 %{peardir}/Horde/Block/UI.php
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 560513
+- Increased release for rebuild
+
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2011.0
++ Revision: 560452
+- Increased release for rebuild
+
+* Thu Mar 11 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 517660
+- updated Description to upstream
+- import horde-block
+
+
